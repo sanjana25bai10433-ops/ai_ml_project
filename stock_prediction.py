@@ -9,8 +9,8 @@ from sklearn.metrics import mean_squared_error
 
 from statsmodels.tsa.arima.model import ARIMA
 
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense
+from keras.models import Sequential
+from keras.layers import LSTM, Dense
 
 
 # load data
